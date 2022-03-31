@@ -4,7 +4,7 @@ import Chirpr from './chirpr';
 
 export const Connection = mysql.createConnection({
     host: 'localhost',
-    port: 3000,
+    port: 3306,
     user: 'chirprapp',
     password: 'blue',
     database: 'chirpr'
