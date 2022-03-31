@@ -1,8 +1,8 @@
-// import {Query} from './index';
+ import {Query} from './index';
 
-// const all = async() => Query('select * from chirpr');
+ const all = async() => Query('select * from chirpr');
 
 
-// export default {
-//     all
-// }
+ export default {
+     all
+ }
