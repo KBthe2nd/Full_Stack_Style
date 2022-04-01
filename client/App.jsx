@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import moment from "moment";
 import ChirpCard from "./components/ChirpCard.jsx";
+import EditChirp from "./components/EditChirp.jsx";
+import DeleteChirp from "./components/deleteChirp.jsx";
+import ChirpPost from "./components/ChirpCard.jsx";
 
 const App = () => {
   const [username, setUsername] = useState("");
@@ -91,6 +94,9 @@ const App = () => {
                 created={chirp.created}
               />
             ))}
+              <ChirpPost/>
+              <EditChirp/>
+              <DeleteChirp/>
           </div>
         </div>
       </div>
