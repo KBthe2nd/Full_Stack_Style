@@ -9,7 +9,7 @@ import ChirpPost from "./components/ChirpCard.jsx";
 const App = () => {
   const [username, setUsername] = useState("");
   const [message, setMessage] = useState("");
-  const [chirps, setChirps] = useState([
+  const [chirps, setChirps] = useState([]);
     {
       id: uuidv4(),
       username: "Josh",
